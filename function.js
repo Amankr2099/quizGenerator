@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 
 // Access your API key (see "Set up your API key" above)
-const genAI = new GoogleGenerativeAI($API_KEY);
+const genAI = new GoogleGenerativeAI(${{ vars.API_KEY }});
 
 //declare empty array of questions
 const questions = []
